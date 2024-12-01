@@ -1,0 +1,82 @@
+[{
+  "id": 1,
+  "day": "Lundi",
+  "date": "02/12/2024",
+  "time": "10:00",
+  "course": "Yoga",
+  "person": "Sarah Dupont",
+  "location": "Studio Zen"
+},
+  {
+    "id": 2,
+    "day": "Mercredi",
+    "date": "04/12/2024",
+    "time": "14:00",
+    "course": "HIIT",
+    "person": "Lina Moreau",
+    "location": "CardioZone"
+  },
+  {
+    "id": 3,
+    "day": "Samedi",
+    "date": "07/12/2024",
+    "time": "09:00",
+    "course": "Pilates",
+    "person": "Amélie Dupuis",
+    "location": "ZenFit studio"
+  },
+  {
+    "id": 4,
+    "day": "Lundi",
+    "date": "09/12/2024",
+    "time": "18:00",
+    "course": "Boxe fitness",
+    "person": "Sofiane Benali",
+    "location": "BoxingArena"
+  },
+  {
+    "id": 5,
+    "day": "Mercredi",
+    "date": "11/12/2024",
+    "time": "11:00",
+    "course": "CrossFit débutant",
+    "person": "Rachid Amrani",
+    "location": "PowerBox"
+  },
+  {
+    "id": 6,
+  "day": "Samedi",
+  "date": "14/12/2024",
+  "time": "16:00",
+  "course": "Zumba tonification",
+  "person": "Nadia Belkacem",
+  "location": "DanceFit"
+  },
+  {
+    "id": 7,
+    "day": "Lundi",
+    "date": "16/12/2024",
+    "time": "08:00",
+    "course": "Spinning",
+    "person": "Hicham El Idrissi",
+    "location": "SpinMaster"
+  },
+  {
+    "id": 8,
+    "day": "Mercredi",
+    "date": "18/12/2024",
+    "time": "19:00",
+    "course": "Musculation",
+    "person": "Thomas Lambert",
+    "location": "IronGym"
+  },
+  {
+    "id": 9,
+    "day": "Samedi",
+    "date": "21/12/2024",
+    "time": "10:00",
+    "course": "Yoga",
+    "person": "Emma Dubois",
+    "location": "PureZen"
+  }
+]

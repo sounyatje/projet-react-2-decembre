@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'sporty'; 
+    src: url('/public/ethnocentric/sporty.otf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+  .someClass {
+    font-family: 'sporty', sans-serif;
+    
+  }

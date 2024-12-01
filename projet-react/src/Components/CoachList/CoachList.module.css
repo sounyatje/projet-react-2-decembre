@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollContainer {
+  max-height: 900px;
+  overflow-y: auto;
+}
+
+.scrollContainer {
+  max-height: 900px;
+  overflow-y: auto;
+  padding-right: 10px; /* Espace entre la scrollbar et le bord du conteneur */
+}
+
+/* Barre de défilement personnalisée */
+.scrollContainer::-webkit-scrollbar {
+  width: 6px; /* Largeur de la scrollbar */
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  margin: 4px; /* Espace en haut et en bas pour raccourcir la scrollbar */
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  background-color: #FF6700; /* Couleur orange */
+  border-radius: 10px;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb:hover {
+  background: #e06600; /* Couleur orange plus foncée au survol */
+}

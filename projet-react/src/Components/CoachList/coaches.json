@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Blandin Kpat",
+    "image": "/images/f1.jpg",
+    "speciality": "bodypump",
+    "age": 30,
+    "description": "Coach expert en bodypump, Blandin aide ses élèves à se tonifier et à améliorer leur force musculaire.",
+    "schedule": "Lundi, Mercredi, Vendredi - 18h à 20h",
+    "location": "123 Rue de la Santé, Bruxelles",
+    "price": 50
+  },
+  {
+    "id": 2,
+    "name": "Natalie Spakouts",
+    "image": "/images/f2.jpg",
+    "speciality": "circuit training",
+    "age": 28,
+    "description": "Spécialiste en circuit training, Natalie propose des séances intenses pour un renforcement complet du corps.",
+    "schedule": "Mardi, Jeudi - 10h à 12h",
+    "location": "456 Avenue de la Paix, Bruxelles",
+    "price": 40
+  },
+  {
+    "id": 3,
+    "name": "Janelle Lauberen",
+    "image": "/images/f3.jpg",
+    "speciality": "pilates",
+    "age": 32,
+    "description": "Instructrice de Pilates, Janelle aide ses clients à améliorer leur flexibilité et leur équilibre.",
+    "schedule": "Lundi, Vendredi - 14h à 16h",
+    "location": "789 Rue de la Forme, Bruxelles",
+    "price": 45
+  },
+  {
+    "id": 4,
+    "name": "Mylina Chavé",
+    "image": "/images/f4.jpg",
+    "speciality": "abdos fessiers",
+    "age": 29,
+    "description": "Coach spécialisée en abdos fessiers, Mylina aide ses élèves à renforcer le bas du corps.",
+    "schedule": "Mercredi, Vendredi - 19h à 21h",
+    "location": "321 Rue de l'Endurance, Bruxelles",
+    "price": 60
+  },
+  {
+    "id": 5,
+    "name": "Bardiel Arreal",
+    "image": "/images/m1.jpg",
+    "speciality": "cardio boxing",
+    "age": 35,
+    "description": "Ancien champion de boxe, Bardiel propose des cours de cardio boxing pour brûler des calories et gagner en endurance.",
+    "schedule": "Mardi, Jeudi - 18h à 20h",
+    "location": "654 Rue des Combattants, Bruxelles",
+    "price": 55
+  },
+  {
+    "id": 6,
+    "name": "Damar Biliny",
+    "image": "/images/m2.jpg",
+    "speciality": "circuit training",
+    "age": 40,
+    "description": "Passionné de cyclisme, Damar organise des sorties et des sessions de coaching pour les amateurs de vélo.",
+    "schedule": "Samedi - 8h à 12h",
+    "location": "987 Chemin des Cyclistes, Bruxelles",
+    "price": 70
+  },
+  {
+    "id": 7,
+    "name": "Inaz Crealthy",
+    "image": "/images/f5.jpg",
+    "speciality": "bodypump",
+    "age": 27,
+    "description": "Coach en natation pour débutants et compétiteurs, Inaz aide ses élèves à développer leur technique et leur confiance dans l'eau.",
+    "schedule": "Lundi, Mercredi - 17h à 19h",
+    "location": "101 Piscine Centrale, Bruxelles",
+    "price": 45
+  },
+  {
+    "id": 8,
+    "name": "Mikey Toud",
+    "image": "/images/m3.jpg",
+    "speciality": "cardio boxing",
+    "age": 38,
+    "description": "Expert en arts martiaux avec plus de 15 ans d'expérience, Mikey aide ses élèves à développer discipline et maîtrise de soi.",
+    "schedule": "Lundi, Mercredi - 18h à 20h",
+    "location": "203 Dojo des Guerriers, Bruxelles",
+    "price": 65
+  },
+  {
+    "id": 9,
+    "name": "Shitira Thed",
+    "image": "/images/m4.jpg",
+    "speciality": "pilates",
+    "age": 26,
+    "description": "Professeur de danse contemporaine, Shitira aide ses élèves à exprimer leur créativité à travers le mouvement.",
+    "schedule": "Mardi, Jeudi - 17h à 19h",
+    "location": "306 Studio de Danse, Bruxelles",
+    "price": 50
+  },
+  {
+    "id": 10,
+    "name": "Crista Martin",
+    "image": "/images/f6.jpg",
+    "speciality": "circuit training",
+    "age": 30,
+    "description": "Passionnée d'escalade, Crista propose des séances pour les débutants et les grimpeurs avancés.",
+    "schedule": "Vendredi - 10h à 12h",
+    "location": "409 Salle d'Escalade, Bruxelles",
+    "price": 60
+  },
+  {
+    "id": 11,
+    "name": "Jonh Bennett",
+    "image": "/images/m5.jpg",
+    "speciality": "pilates",
+    "age": 34,
+    "description": "Coach en course à pied, Jonh aide ses élèves à améliorer leur endurance et technique.",
+    "schedule": "Mercredi, Samedi - 7h à 9h",
+    "location": "112 Parc des Runners, Bruxelles",
+    "price": 30
+  },
+  {
+    "id": 12,
+    "name": "Aminokoko",
+    "image": "/images/m6.jpg",
+    "speciality": "bodypump",
+    "age": 35,
+    "description": "Entraîneur en musculation, Aminokoko offre un suivi personnalisé pour atteindre les objectifs de ses élèves.",
+    "schedule": "Lundi - 9h à 11h",
+    "location": "Centre Sportif, Bruxelles",
+    "price": 40
+  },
+  {
+    "id": 13,
+    "name": "Tyra Doyen",
+    "image": "/images/f7.jpg",
+    "speciality": "cardio boxing",
+    "age": 27,
+    "description": "Coach certifiée en CrossFit, Tyra propose des entraînements intenses pour renforcer la condition physique.",
+    "schedule": "Mardi, Jeudi - 16h à 18h",
+    "location": "Gym Box, Bruxelles",
+    "price": 45
+  },
+  {
+    "id": 14,
+    "name": "Thibaut Lamiert",
+    "image": "/images/m8.jpg",
+    "speciality": "cardio boxing",
+    "age": 40,
+    "description": "Passionné par le cyclisme, Thibaut accompagne ses élèves lors de parcours variés et stimulants.",
+    "schedule": "Samedi - 8h à 12h",
+    "location": "Route de la Liberté, Bruxelles",
+    "price": 50
+  },
+  {
+    "id": 15,
+    "name": "John Bennett",
+    "image": "/images/m7.jpg",
+    "speciality": "pilates",
+    "age": 34,
+    "description": "Ancien joueur de basketball, John offre des séances pour améliorer la technique et la condition physique.",
+    "schedule": "Samedi - 8h à 12h",
+    "location": "Route de la Liberté, Bruxelles",
+    "price": 50
+  },
+  {
+    "id": 16,
+    "name": "Adeline Laflore",
+    "image": "/images/f8.jpg",
+    "speciality": "bodypump",
+    "age": 29,
+    "description": "Coach spécialisée en stretching, Adeline aide ses élèves à améliorer leur flexibilité et à réduire le stress.",
+    "schedule": "Lundi, Mercredi - 10h à 11h",
+    "location": "123 Rue du Bien-être, Bruxelles",
+    "price": 35
+  },
+  {
+    "id": 17,
+    "name": "Rodri Avens",
+    "image": "/images/f9.jpg",
+    "speciality": "bodypump",
+    "age": 45,
+    "description": "Entraîneur de tennis expérimenté, Rodri encadre des séances pour débutants et compétiteurs.",
+    "schedule": "Mardi, Vendredi - 9h à 11h",
+    "location": "Court Central, Bruxelles",
+    "price": 55
+  },
+  {
+    "id": 18,
+    "name": "Thomas Tanguy",
+    "image": "/images/m7.jpg",
+    "speciality": "circuit training",
+    "age": 39,
+    "description": "Coach en remise en forme, Thomas aide ses clients à retrouver la forme physique avec des exercices adaptés.",
+    "schedule": "Mercredi, Samedi - 18h à 20h",
+    "location": "Fitness Center, Bruxelles",
+    "price": 40
+  },
+  {
+    "id": 19,
+    "name": "Lara Dupont",
+    "image": "/images/f10.jpg",
+    "speciality": "pilates",
+    "age": 25,
+    "description": "Instructrice de Zumba, Lara propose des cours dynamiques et amusants pour brûler des calories.",
+    "schedule": "Lundi, Mercredi, Vendredi - 18h à 19h",
+    "location": "Salle de Danse, Bruxelles",
+    "price": 30
+  },
+  {
+    "id": 20,
+    "name": "Alex Garcia",
+    "image": "/images/m6.jpg",
+    "speciality": "abdos fessiers",
+    "age": 33,
+    "description": "Coach personnel en musculation, Alex propose un accompagnement individualisé pour atteindre vos objectifs.",
+    "schedule": "Mardi, Jeudi - 10h à 12h",
+    "location": "Centre de Fitness, Bruxelles",
+    "price": 60
+  }
+]

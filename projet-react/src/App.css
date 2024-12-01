@@ -1,0 +1,314 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar container styles */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+/* Left Section */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  width: 60px;
+  margin-bottom: 1rem;
+ 
+}
+
+.tagline h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-left: 200px;
+}
+
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 200px;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.search-button {
+  background-color: #ff6600;
+width:50px;
+height: 30px;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.search-button:hover{
+  transform: translateY(-5px);
+}
+
+.search-button img {
+  width: 16px;
+}
+
+/* Right Section */
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.coach-images {
+  display: flex;
+  gap: 10px;
+  margin-right: 100px;
+}
+
+.coach-image {
+  width: 50px;
+  height: 100px;
+  border-radius:100px;
+  object-fit: cover;
+}
+
+.coach-images-container {
+  position: relative; /* Le conteneur doit être en position relative pour que les images en position absolute se positionnent par rapport à lui */
+}
+
+.coach-image {
+  width: 100px;
+  height: 200px;
+  object-fit: cover;
+  position: absolute; /* L'image est en position absolue pour pouvoir la placer librement */
+   /* Ajuste cette valeur pour que l'image dépasse la navbar comme tu le souhaites */
+}
+
+.coach-image:nth-child(1) {
+  right:400px; /* Place la première image */
+  top: -20px;
+}
+
+.coach-image:nth-child(2) {
+  right: 525px; /* Place la deuxième image avec un décalage par rapport à la première */
+  top: 20px;
+}
+
+.coach-image:nth-child(3) {
+ right: 650px; /* Place la troisième image avec un autre décalage */
+ top: -20px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.auth-button {
+  border: 1px solid #ccc;
+  background-color: #e0e0e0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #ff6600;
+  color:#e0e0e0;
+  transform: scale(1.1);
+  transition: color 0.3s ease-in-out;
+  
+}
+
+/* Footer container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+}
+
+/* Footer section styles */
+.footer-section {
+  flex: 1;
+  margin-right: 1.5rem;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.footer-section ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Social icons section */
+.follow-us .social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.follow-us .social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Conteneur général pour prendre toute la page */
+.page-container {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+/* Le contenu prendra tout l'espace disponible entre le header et le footer */
+.content-wrap {
+  flex: 1; /* Prend tout l'espace disponible */
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  text-align: left;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* Conserve l'alignement en haut */
+  border-top: 2px solid #ff6b00; /* Ajout d'une bordure fine pour un effet de séparation */
+  position: relative;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out; /* Transition douce sur les couleurs */
+}
+
+footer a:hover {
+  color: #ff6b00; /* Couleur orange lors du survol */
+}
+
+footer .social-icons a {
+  font-size: 24px;
+  color: #ff6b00;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+footer .social-icons a:hover {
+  transform: scale(1.1); /* Légère augmentation de la taille des icônes au survol */
+  color: #ffa500; /* Changement de couleur au survol */
+}
+
+/* Effet de transition sur les sections du footer */
+footer .footer-section {
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+footer .footer-section:hover {
+  transform: translateY(-5px); /* Légère translation vers le haut au survol */
+}
+
+footer .footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ff6b00;
+}
+
+footer .footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .footer-section ul li {
+  margin-bottom: 8px;
+  transition: color 0.3s ease-in-out; /* Transition pour chaque élément de la liste */
+}
+
+footer .footer-section ul li:hover {
+  color: #ff6b00; /* Changement de couleur au survol des éléments de la liste */
+}
+
+/* Effets de focus sur les liens pour l'accessibilité */
+footer a:focus {
+  outline: 2px solid #ff6b00; /* Bordure visible lors du focus pour l'accessibilité */
+  outline-offset: 4px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column; /* Permet de garder le titre au-dessus des sections */
+}
+
+.content-wrap {
+  flex: 1; /* Prendre tout l'espace disponible entre la Navbar et le Footer */
+  padding: 2rem; /* Espacement autour de l'application */
+  display: flex;
+  flex-direction: column; /* Pour empiler le titre au-dessus du contenu */
+  align-items: center; /* Centre le contenu horizontalement */
+}
+
+.main-title {
+  margin-bottom: 2rem; /* Espacement entre le titre et le contenu */
+  font-size: 2rem; /* Taille du titre */
+  text-align: center; /* Centrer le texte */
+}
+
+.main-content {
+  display: flex; /* Affiche les sections côte à côte */
+  width: 90%; /* Utilise toute la largeur disponible */
+  gap:20px;
+  max-width: none; /* Supprime la largeur maximale */
+  height: 130vh;
+}
+
+.coach-section, .testimonials-section {
+  flex: 1; /* Chaque section prend la même largeur */
+  /*border: 1px solid #ccc; /* Bordure pour définir les sections */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 2rem; /* Espacement intérieur */
+ /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+
+.coach-section h2, .testimonials-section h2 {
+  text-align: center; /* Centrer les titres des sections */
+}
