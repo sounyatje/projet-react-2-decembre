@@ -7,7 +7,8 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import About from './Components/About/About';
 import AuthModal from './Components/Navbar/Connexion';
 import Page2 from './Components/Loggedin/Page2';
-import Page3 from './Components/Loggedin/Page3'; // Assurez-vous que ce chemin est correct
+import Page3 from "./Components/Loggedin/Page3";
+
 import './App.css';
 import './index.css';
 
