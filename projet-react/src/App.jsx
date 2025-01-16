@@ -7,8 +7,8 @@ import Testimonials from './Components/Testimonials/Testimonials';
 import About from './Components/About/About';
 import AuthModal from './Components/Navbar/Connexion';
 import Page2 from './Components/Loggedin/Page2';
-import Page3 from "./Components/Loggedin/Page3";
-
+import Page3 from "./Components/Loggedin/page3";
+//try to fix typo issue
 import './App.css';
 import './index.css';
 
