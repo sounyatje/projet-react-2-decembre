@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+import forms from '@tailwindcss/forms';
+import scrollbar from 'tailwind-scrollbar';
+
 export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -17,13 +20,10 @@ export default {
       fontFamily: {
         sporty: ['sporty', 'sans-serif'],
       },
-
     },
   },
   plugins: [
-    require('@tailwindcss/forms'),
-    require('tailwind-scrollbar'), // Utilisation correcte du plugin
+    forms,
+    scrollbar, 
   ],
 };
-
-
