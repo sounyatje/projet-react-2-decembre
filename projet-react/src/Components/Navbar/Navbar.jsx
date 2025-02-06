@@ -17,7 +17,7 @@ const Navbar = ({ onLoginClick, onSearch }) => {
   return (
     <nav className= " flex justify-between items-center py-4 px-8 h-20 bg-gradient-to-r from-orange to-blueLight hover:from-blueLight hover:to-orange transition-all duration-500 shadow-md">
       <div className="flex items-center space-x-4">
-        <img src="../../../public/logo.png" alt="Strong Node Logo" className="w-14 h-14 object-cover rounded-full" />
+        <img src="../../../public/converted_image-removebg-preview.png" alt="Strong Node Logo" className="w-14 h-14 object-cover rounded-full" />
         <h1 className="text-lg font-sporty font-normal text-white ">
           Libérez votre potentiel avec les meilleurs <span className="text-blue-900 font-bold">coachs sportifs</span>
         </h1>
